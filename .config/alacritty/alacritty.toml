@@ -1,0 +1,47 @@
+# Window settings
+[window]
+dimensions = { columns = 120, lines = 40 }
+padding = { x = 10, y = 10 }
+decorations = "full"
+opacity = 1.0
+
+# Font settings
+[font]
+size = 13.0
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
+
+# Color theme settings
+[colors.primary]
+background = "#1e1e1e"
+foreground = "#d4d4d4"
+
+[colors.cursor]
+text = "#1e1e1e"
+cursor = "#d4d4d4"
+
+# Environment variables
+[env]
+TERM = "xterm-256color"
+
+# Keybinding settings
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
